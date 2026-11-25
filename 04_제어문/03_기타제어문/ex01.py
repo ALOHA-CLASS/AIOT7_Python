@@ -8,7 +8,7 @@
 while True:
     academy = input('우리 학원 이름은? ')
     # 종료조건
-    if academy == '더조은':
+    if academy == 'DW':
         print('정답입니다!')
         break
     else:

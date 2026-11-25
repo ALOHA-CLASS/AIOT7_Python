@@ -24,6 +24,8 @@ users = {
     "yunhongmin01" : "ghdals1234*",
     "admin" : "유목민"
 }
+# -> [(joeun1004, 123456), (yunhongmin01, ghdals1234*), (admin, 유목민) ]
+
 # items() : 딕셔너리를 (키, 값) 쌍의 튜플로 반환
 for id, pw in users.items():
     print("아이디 : {}, 비밀번호 : {}".format( id, pw ) )

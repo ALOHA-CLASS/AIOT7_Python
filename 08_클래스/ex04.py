@@ -16,5 +16,5 @@ class Person:
 
 p = Person()
 
-p.set_name('김조은')
+p.set_name('알로하')
 print('p - name : {}'.format( p.get_name() ))

@@ -12,5 +12,5 @@ def greet( name, msg='안녕하세요' ):
     print('{}님, {}'.format(name, msg))
     
     
-greet('김조은')
-greet('김조은', '반갑습니다')
+greet('알로하')
+greet('알로하', '반갑습니다')

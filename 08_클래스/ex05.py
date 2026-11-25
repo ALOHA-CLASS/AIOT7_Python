@@ -27,7 +27,7 @@ class Person:
 p = Person()
 
 # setter 메소드를 통해 값이 지정됨(호출됨)
-p.name = '김조은'   
+p.name = '알로하'   
 
 # getter 메소드를 통해 값에 접근함(호출됨)
 print('p - name : {}'.format( p.name ))

@@ -43,7 +43,7 @@ class Person:
 person = Person()
 
 # 객체의 변수 접근
-person.name = '김조은'
+person.name = '알로하'
 person.age = 20
 person.tel = '010-1234-1234'
 
@@ -52,9 +52,9 @@ print('나이 : {}'.format( person.age ))
 print('전화번호 : {}'.format( person.tel ))
 
 # 생성자를 통하여 객체 생성
-person2 = Person('박조은')
-person2 = Person('박조은', 20)
-person2 = Person('박조은', 20, '010-1234-1234')
+person2 = Person('박모아')
+person2 = Person('박모아', 20)
+person2 = Person('박모아', 20, '010-1234-1234')
 
 print('이름 : {}'.format( person2.name ))
 print('나이 : {}'.format( person2.age ))

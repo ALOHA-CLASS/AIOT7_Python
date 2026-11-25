@@ -30,7 +30,7 @@ class Student:
     
 # 객체 리스트
 students = [
-    Student(101, '김조은', '컴퓨터공학과'),
+    Student(101, '알로하', '컴퓨터공학과'),
     Student(102, '이재명', '법학과'),
     Student(103, '김문수', '정치학과'),
     Student(104, '이준석', '컴퓨터과학')
