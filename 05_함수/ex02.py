@@ -35,6 +35,7 @@
 '''
 
 # chr
+print( chr(65) )            # A
 print( chr(97) )            # a
 print( chr(98) )            # b
 print( chr(99) )            # c
