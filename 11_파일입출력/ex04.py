@@ -2,6 +2,10 @@
 # os 모듈에 파일 삭제 기능이 정의되어있다
 import os
 
+# os.path.dirname(__file__) : 현재 프로그램이 실행된 경로
+#                           --> C:\ALOHA\GITHUB\AIOT7_Python\11_파일입출력
+# os.path.sep               : \
+# path :       C:\ALOHA\GITHUB\AIOT7_Python\11_파일입출력\file
 path = os.path.dirname(__file__) + os.path.sep + 'file'
 file = input('삭제할 파일명 : ')
 file = path + os.path.sep + file

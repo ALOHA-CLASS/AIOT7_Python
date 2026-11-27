@@ -2,7 +2,7 @@
 # - 파일 경로   : ~/hello.txt
 # - 모드        : 'at' (추가모드)
 
-path = 'E:/AI3/GITHUB/AI3_Python/11_파일입출력/file/'
+path = 'C:/ALOHA/GITHUB/AIOT7_Python/11_파일입출력/file/'
 # 파일 열기
 file = open(path + 'hello.txt', 'at', encoding='UTF-8')
 

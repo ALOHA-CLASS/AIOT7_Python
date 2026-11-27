@@ -8,7 +8,7 @@ class Student:
     # tel = ''
     # 클래스 변수 : 객체간의 공유할 값으로 사용하는 변수
     count = 0
-    sutdent_list = []
+    student_list = []
     
     # 인스턴스 변수 접근 : self.변수
     # 클래스 변수 접근   : 클래스.변수
@@ -18,7 +18,7 @@ class Student:
         self.name = name
         self.major = major
         Student.count += 1
-        Student.sutdent_list.append(self)
+        Student.student_list.append(self)
         
     def __str__(self):
         return '{} / {} / {}'.format(self.no, self.name, self.major)
@@ -34,7 +34,7 @@ class Student:
     
     @classmethod
     def show_info(cls):
-        for student in cls.sutdent_list:
+        for student in cls.student_list:
             print( str(student) )
             
     

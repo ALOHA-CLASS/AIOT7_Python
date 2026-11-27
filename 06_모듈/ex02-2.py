@@ -23,5 +23,5 @@ team_list = [ list[i:i+5] for i in range(0, 20, 5) ]
 
 # enumerate
 for team in enumerate( team_list, 1):
-    print('{}조 : {}'.format(team[0], team[1]))
+    print('{}조 : {}'.format(team[0], team[1] ))
 

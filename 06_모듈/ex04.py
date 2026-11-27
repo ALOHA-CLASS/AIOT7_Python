@@ -4,16 +4,16 @@ import datetime
 nowtime = datetime.datetime.now()
 print('현재 날짜와 시간 : {}'.format(nowtime))
 
-today = datetime.date(2025, 5, 29)
+today = datetime.date(2026, 11, 27)
 print('현재 날짜와 시간 : {}'.format(today))
 
-lastDay = datetime.date(2025, 9, 17)
+lastDay = datetime.date(2027, 2, 19)
 print('종강일 : {}'.format(lastDay))
 
-t1 = datetime.time(17,50,0)
+t1 = datetime.time(12,10,0)
 print('현재시간 : {}'.format(t1)) 
 
-t2 = datetime.time(18,20,0)
+t2 = datetime.time(17,30,0)
 print('수업종료 : {}'.format(t2))
 
 today = datetime.datetime.now()
@@ -33,7 +33,7 @@ print('{} 초'.format( today.second) )
 today = datetime.datetime.today()
 
 # 종강일
-lastDay = datetime.datetime(2025,9,17)
+lastDay = datetime.datetime(2027,2,19)
 
 # 남은 시간 계산
 gap = lastDay - today
